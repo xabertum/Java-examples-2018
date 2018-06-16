@@ -72,11 +72,29 @@ public class Condicionales {
 		
     }
     
+    public static void numeroDigitosString() {
+	
+	int num;
+	String string;
+	
+	@SuppressWarnings("resource")
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("introduce el numero: ");
+	num = scanner.nextInt();
+	
+	string = Integer.toString(num);
+	
+	System.out.println("El numero de digitos es: " + string.length());
+	
+	
+	
+    }
+    
     
     
     public static void main(String[] args) {
 	
-	numeroDigitosDivisiones();
+	numeroDigitosString();
 	
 
     }
