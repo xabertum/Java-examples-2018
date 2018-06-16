@@ -85,7 +85,35 @@ public class Condicionales {
 	string = Integer.toString(num);
 	
 	System.out.println("El numero de digitos es: " + string.length());
+		
+		
+    }
+    
+    public static void sueldoAntiguedad() {
 	
+	float sueldo, antiguedad;
+	Scanner scanner = new Scanner(System.in);
+	
+	System.out.println("Introduce el sueldo: ");
+	sueldo = scanner.nextFloat();
+	
+	System.out.println("Introduce la antiguedad: ");
+	antiguedad = scanner.nextFloat();
+	
+	if ( sueldo < 500 && antiguedad > 10) {
+	    	    
+	    float sueldoAntiguedad = (float) (sueldo + (sueldo * 0.2));	    
+	    System.out.println("Aumento del 20%, el sueldo actual es: " + sueldoAntiguedad);
+	    
+	} else if (sueldo < 500 && antiguedad < 10) {
+	    
+	    float sueldoAntiguedad = (float) (sueldo + (sueldo*0.05));
+	    System.out.println("Aumento del 5%, el sueldo actual es: " + sueldoAntiguedad);
+	    
+	} else if (sueldo > 500) {
+	    System.out.println("Ya cobras mas de 500... :-(");
+	    
+	}
 	
 	
     }
@@ -94,7 +122,7 @@ public class Condicionales {
     
     public static void main(String[] args) {
 	
-	numeroDigitosString();
+	sueldoAntiguedad();
 	
 
     }
