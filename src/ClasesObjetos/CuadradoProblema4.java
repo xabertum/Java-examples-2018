@@ -6,8 +6,7 @@ public class CuadradoProblema4 {
 
     private Scanner scanner;
     private int lado;
-    
-    
+        
     public void inicializar() {
 	scanner = new Scanner(System.in);
 	System.out.println("introduce el valor de lado: ");
