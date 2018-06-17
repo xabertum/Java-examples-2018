@@ -27,12 +27,28 @@ public class Strings {
 	
     }
     
+    public static void problema3() {
+	
+	String apellido1, apellido2;
+	Scanner scanner = new Scanner(System.in);
+	
+	System.out.println("introduce el apellido1: ");
+	apellido1 = scanner.nextLine();
+	
+	System.out.println("introduce el apellido2: ");
+	apellido2 = scanner.nextLine();
+	
+	if (apellido1.equals(apellido2)) System.out.println("son iguales");
+	else System.out.println("NO son iguales");
+	
+    }
+    
     
     
     
     public static void main(String[] args) {
 
-	problema2();
+	problema3();
 
     }
 
