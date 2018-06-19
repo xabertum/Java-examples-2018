@@ -15,7 +15,7 @@ public class Problema2 {
 	
 	for (int i = 0; i < altura.length; i++) {
 	    System.out.println("Introduce la altura " + i + ":" );
-	    altura[i] = scanner.nextInt();
+	    altura[i] = scanner.nextFloat();
 	}	
     }
     
@@ -26,6 +26,8 @@ public class Problema2 {
 	}
 	
 	promedio = suma/altura.length;
+	
+	System.out.println("La altura promedio es: " + promedio);
     }
     
     public void MayoresMenores () {
@@ -44,7 +46,10 @@ public class Problema2 {
     
     
     public static void main(String[] args) {
-	// TODO Auto-generated method stub
+	Problema2 problema2 = new Problema2();
+	problema2.inicializarVector();
+	problema2.media();
+	problema2.MayoresMenores();	
 
     }
 
