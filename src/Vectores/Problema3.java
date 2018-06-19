@@ -44,7 +44,9 @@ public class Problema3 {
     
 
     public static void main(String[] args) {
-	// TODO Auto-generated method stub
+	Problema3 problema3 = new Problema3();
+	problema3.inicializar();
+	problema3.calcularGastos();
 
     }
 
