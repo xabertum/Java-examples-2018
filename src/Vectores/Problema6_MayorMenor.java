@@ -35,25 +35,26 @@ public class Problema6_MayorMenor {
     }
 
     public boolean seRepite() {
-
+	
 	boolean seRepite = false;
 
 	for (int i = 0; i < vector.length; i++) {
-	    if (vector[i] == vector[i + 1])
-		seRepite = true;
+	    for (int j = i + 1; j < vector.length; j++) {
 
+		if (vector[i] == vector[j])
+		    seRepite = true;
+	    }
 	}
 
 	return seRepite;
     }
 
     public static void main(String[] args) {
-	
+
 	Problema6_MayorMenor problema6_MayorMenor = new Problema6_MayorMenor();
 	problema6_MayorMenor.inicializarVector();
-	System.out.println(problema6_MayorMenor.menorValor());
-	System.out.println(problema6_MayorMenor.seRepite());
-	
+	System.out.println("El menor valor es: " + problema6_MayorMenor.menorValor());
+	System.out.println("Se repiten valores: " + problema6_MayorMenor.seRepite());
 
     }
 
