@@ -48,7 +48,12 @@ public class Problema6_MayorMenor {
     }
 
     public static void main(String[] args) {
-	// TODO Auto-generated method stub
+	
+	Problema6_MayorMenor problema6_MayorMenor = new Problema6_MayorMenor();
+	problema6_MayorMenor.inicializarVector();
+	System.out.println(problema6_MayorMenor.menorValor());
+	System.out.println(problema6_MayorMenor.seRepite());
+	
 
     }
 
