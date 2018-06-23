@@ -31,11 +31,21 @@ public class Problema7_ordenar {
 		}
 	    }
 	}
-
     }
+    
+    public void imprimirVector() {
+	System.out.println("El vector ordenado de menor a mayor: ");
+	for (int i = 0; i < vector.length; i++) {
+	    System.out.println(vector[i]);
+	}	
+    }
+    
 
     public static void main(String[] args) {
-	// TODO Auto-generated method stub
+	Problema7_ordenar pOrdenar = new Problema7_ordenar();
+	pOrdenar.inicializarVector();
+	pOrdenar.ordenarVector();
+	pOrdenar.imprimirVector();
 
     }
 
