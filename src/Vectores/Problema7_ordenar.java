@@ -23,7 +23,7 @@ public class Problema7_ordenar {
 
     public void ordenarVector() {
 	for (int i = 0; i < vector.length; i++) {
-	    for (int j = 0; j < vector.length - 1; j++) {
+	    for (int j = 0; j < vector.length - i; j++) {
 		if (vector[j] > vector[j + 1]) {
 		    int aux = vector[j];
 		    vector[j] = vector[j + 1];
