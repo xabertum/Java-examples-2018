@@ -39,7 +39,7 @@ public class Problema1 {
     public void imprimirUltimaFila() {
 	System.out.println("ultima fila");
 	for (int i = 0; i < matriz[matriz.length -1].length; i++) {
-	    System.out.print(matriz[matriz.length-1][i]);
+	    System.out.print(matriz[matriz.length-1][i] + " ");
 	}
     }
     
