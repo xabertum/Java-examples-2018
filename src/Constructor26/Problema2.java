@@ -2,10 +2,6 @@ package Constructor26;
 
 import java.util.Scanner;
 
-import com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector;
-
-import jdk.nashorn.internal.runtime.regexp.joni.ScanEnvironment;
-
 public class Problema2 {
 
     private Scanner scanner;
