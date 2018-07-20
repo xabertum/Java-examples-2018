@@ -30,7 +30,9 @@ public class Problema2 {
     }
 
     public static void main(String[] args) {
-	// TODO Auto-generated method stub
+	Problema2 problema2 = new Problema2();
+	problema2.imprimir();
+	problema2.esMayorEdad();
 
     }
 
