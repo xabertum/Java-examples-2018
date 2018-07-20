@@ -24,11 +24,11 @@ public class Problema4 {
     public int dividir() {
 	return numA / numB;
     }
-
-    
-    
+   
     public static void main(String[] args) {
-	
+	Problema4 problema4 = new Problema4(2, 3);
+	System.out.println(problema4.sumar());
+	System.out.println(problema4.restar());
 
     }
 
