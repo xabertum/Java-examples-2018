@@ -1,6 +1,5 @@
 package ClaseString27;
 
-import java.awt.event.HierarchyBoundsAdapter;
 import java.util.Scanner;
 
 public class Problema2 {
