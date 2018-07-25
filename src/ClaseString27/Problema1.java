@@ -14,6 +14,8 @@ public class Problema1 {
 
 	System.out.println("ingrese la segunda cadena: ");
 	cadena2 = scanner.nextLine();
+	
+	scanner.close();
 
 	if (cadena1.equals(cadena2) == true)
 	    System.out.println("equals  true");
