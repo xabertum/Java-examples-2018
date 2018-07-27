@@ -6,7 +6,7 @@ public class Problema3 {
 
     private Scanner scanner;
     private String clave;
-    private String claveMaestra = "123abc";
+    private static final String CLAVEMAESTRA = "123abc";
     
     public void cargarClave() {
 	scanner = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class Problema3 {
     
     public void comprobarClave () {
 	
-	if (clave.contentEquals(claveMaestra)) {
+	if (clave.contentEquals(CLAVEMAESTRA)) {
 	    System.out.println("ok");
 	} else {
 	    System.out.println("NO");
@@ -24,7 +24,7 @@ public class Problema3 {
     }
     
     public void compareTo() {
-	if (clave.compareTo(claveMaestra) == 0) {
+	if (clave.compareTo(CLAVEMAESTRA) == 0) {
 	    System.out.println("ok");
 	} else {
 	    System.out.println("no");
